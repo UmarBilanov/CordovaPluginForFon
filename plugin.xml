@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com.example.myplugin"
+    id="com.example.CordovaPluginForFon"
     version="1.0">
 
-    <name>MyPlugin</name>
+    <name>CordovaPluginForFon</name>
 
     <engines>
         <engine name="cordova" version=">=3.4.0"/>
@@ -11,8 +11,8 @@
 
     <asset src="www/MyPlugin.js" target="js/MyPlugin.js"/>
 
-    <js-module src="www/MyPlugin.js" name="MyPlugin">
-        <clobbers target="MyPlugin" /> <!-- объект, к которому обращается приложение -->
+    <js-module src="www/MyPlugin.js" name="CordovaPluginForFon">
+        <clobbers target="CordovaPluginForFon" /> <!-- объект, к которому обращается приложение -->
     </js-module>
 
     <platform name="android">

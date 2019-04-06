@@ -1,5 +1,5 @@
 module.exports = {
     runBackground: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "MyPlugin", "runBackground", [])
+        cordova.exec(successCallback, errorCallback, 'MyPlugin', 'runBackground', [])
     }
-}
+};
